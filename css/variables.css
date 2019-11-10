@@ -1,0 +1,32 @@
+/* css color variables */
+
+:root {
+--wf-green0: #45E058;
+--wf-green1: #71FF82;
+--wf-green2: #53F767;
+--wf-green3: #41B550;
+--wf-green4: #395F3E;
+
+--wf-blue0: #1C2323 ;
+--wf-blue1: #020D0E ;
+--wf-blue2: #0D1B1D ;
+--wf-blue3: #4A5C5E ;
+--wf-blue4: #8EA0A1 ;
+
+--wf-orange0: #C06D24 ;
+--wf-orange1: #281300 ;
+--wf-orange2: #814006 ;
+--wf-orange3: #EE9D56 ;
+--wf-orange4: #FFC490 ;
+
+--wf-red0: #360503 ;
+--wf-red1: #860700 ;
+--wf-red2: #500400 ;
+--wf-red3: #260706 ;
+--wf-red4: #140504 ;
+
+--wf-lightblue1: #CFCFEA;
+--wf-warmlightgrey1: #ECE2D0;
+--wf-cooldarkgrey1: #2D2A32;
+
+}

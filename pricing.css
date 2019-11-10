@@ -1,0 +1,185 @@
+
+
+/* willfloyd.com */
+
+
+/* IMPORTS (THANK YOU!) */
+
+@import 'https://fonts.googleapis.com/css?family=Bungee|Open+Sans|Rubik';
+@import '/css/normalize.css';
+@import '/css/responsive.gs.12col.css';
+
+body {
+	font-family: Open Sans;
+	padding-left: 60px;
+	background-image: url(/img/bg/subtle-dark-grey.png);
+	background-color:black;
+	color: white;
+}
+
+nav {
+	position: fixed;
+	top:0;
+	left:0;
+	height: 90%;
+	overflow-y: hidden;
+	background-color: rgba(125,208,127,0.5);
+	width:50px;
+	text-align:center;
+	-webkit-border-radius: 0 0 6em 6em;
+	-moz-border-radius: 0 0 6em 6em;
+	border-radius: 0 0 6em 6em;
+}
+
+#wf-logo{
+	width:40px;
+	margin:5px;
+}
+h1, h2 {
+	font-family: Bungee;
+	margin-top:0;
+}
+a:link, a:visited{
+	color:black;
+}
+
+@media screen and (max-width:380px){
+	span.hide-small{
+		display:none !important;
+	}
+}
+
+/* PRICES */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Looks better Left-aligned */
+
+.container {
+	margin-left:0 !important;
+}
+
+/* Style the list */
+.price {
+    list-style-type: none;
+    margin: 0 0 1em 0;
+    padding: 0;
+	-webkit-border-radius: 1em 0 0 1em;
+	-moz-border-radius: 1em 0 0 1em;
+	border-radius: 1em 0 0 1em;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+    -webkit-box-shadow: -4px 8px 4px 0 rgba(255,255,255,0.7);
+	-moz-box-shadow: -4px 8px 4px 0 rgba(255,255,255,0.7);
+	box-shadow: -4px 8px 4px 0 rgba(255,255,255,0.7);
+}
+
+/* Pricing header */
+.price .header {
+    background-color: rgba(125,208,127,0.5);
+    color: black;
+	font-weight:bold;
+	-webkit-border-radius: 1em 0 0 0;
+	-moz-border-radius: 1em 0 0 0;
+	border-radius: 1em 0 0 0;
+
+}
+
+/* List items and full width spans */
+.price li,
+.price div {
+	color:black;
+	background-color: #ECE2D0;
+	border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.price div{
+    border-top: 1px solid black;
+	-webkit-border-radius: 1em 0 0 1em;
+	-moz-border-radius: 1em 0 0 1em;
+	border-radius: 1em 0 0 1em;
+}
+
+
+/* highlight list item */
+.price .highlight {
+	background-color: rgba(255,255,255,0.7);
+}
+
+/* Last List item */
+.price li:last-child {
+	-webkit-border-radius: 0 0 0 1em;
+	-moz-border-radius: 0 0 0 1em;
+	border-radius: 0 0 0 1em;
+}
+
+/* PRICES LARGE */
+
+
+@media screen and (min-width:768px){
+
+	.price {
+		-webkit-border-radius: 1em;
+		-moz-border-radius: 1em;
+		border-radius: 1em;
+	}
+
+
+	.price .header {
+		-webkit-border-radius: 1em 1em 0 0;
+		-moz-border-radius: 1em 1em 0 0;
+		border-radius: 1em 1em 0 0;
+	}
+	
+	.price div{
+		-webkit-border-radius: 1em;
+		-moz-border-radius: 1em;
+		border-radius: 1em;
+	}
+
+
+	.price li:last-child {
+		-webkit-border-radius: 0 0 1em 1em;
+		-moz-border-radius: 0 0 1em 1em;
+		border-radius: 0 0 1em 1em;
+	}
+
+}
+
+
+/* BUTTONS */
+
+.btn {
+  background-color: rgba(255,255,255,0.5);
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  color: #113f23 !important;
+  font-weight:bold;
+  padding: .5em;
+  border: solid #fff thin;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: rgba(255,255,255,0.9);
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-decoration: none;
+}
+.btn-block {
+	display:block;
+}
+@media screen and (max-width:768px){
+.price div .btn{
+	display:block;	
+}}

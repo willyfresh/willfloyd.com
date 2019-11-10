@@ -1,0 +1,7 @@
+.card__logo {
+	margin: 5% auto;
+	width:40%;
+	max-width: 207px;
+	filter: drop-shadow(1em 0.3em 0.6em var(--wf-red4));
+	opacity: 0.69;
+}

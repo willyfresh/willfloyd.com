@@ -1,0 +1,28 @@
+.card__links {
+	list-style-type: none;
+	padding: 0;
+}
+
+.card__links > li {
+	padding: 1em;
+}
+
+.card__links a {
+	padding: 0.5em;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.card__links i {
+	padding-right: 0.5em;
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.card__links a {
+		padding: 1em 1em 1em 20%;
+	}
+
+}

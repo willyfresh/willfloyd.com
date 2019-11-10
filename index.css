@@ -1,0 +1,228 @@
+
+
+/* willfloyd.com */
+
+
+/* IMPORTS (THANK YOU!) */
+
+@import 'https://fonts.googleapis.com/css?family=Bungee|Open+Sans|Rubik';
+@import '/css/normalize.css';
+@import '/css/responsive.gs.12col.css';
+@import '/css/jquery.fullPage.css';
+
+
+/* FULLPAGE PLUGIN */
+
+section {
+	text-align:center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	box-sizing: content-box;
+}
+
+
+/* MY COLORS */
+
+/* =================
+
+@green1: #45E057;
+@blue1: #08415C;
+@lightblue1: #CFCFEA;
+@warmlightgrey1: #ECE2D0;
+@cooldarkgrey1: #2D2A32;
+
+... it's a start!
+
+================= */
+
+
+/* MY STYLES */
+
+body {
+	font-family: Open Sans;
+	/*background: repeating-linear-gradient(-21deg,#525D3E,#525D3E 4px,#373E2A 4px,#373E2A 12px);*/
+	background-image: url(/img/bg/subtle-dark-grey.png);
+	background-color:black;
+}
+#wf-com{}
+.container{
+	max-width:1200px;
+	margin: 0 auto;
+}
+.container:last-child{ margin-bottom:3em;}
+h1,h2 { font-family: Bungee; }
+.col { padding:1em; }
+
+
+/* BUTTONS */
+
+.btn {
+  background-color: rgba(255,255,255,0.5);
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  color: #113f23;
+  font-weight:bold;
+  padding: .5em;
+  border: solid #fff thin;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: rgba(255,255,255,0.9);
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-decoration: none;
+}
+.btn-block {
+	display:block;
+}
+@media screen and (max-width:768px){
+	.btn{
+		display:block;
+		text-align:center;
+	}
+}
+
+
+/* INTRO */
+
+#wf-intro {
+	color: white;
+
+}
+#wf-intro nav ul {
+	padding-left:0;
+}
+#wf-intro nav .col {
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+}
+#wf-intro h1,
+#wf-intro h2{
+	margin:0;
+}
+#wf-intro h1 {
+	font-size: 2.5em;
+}
+#wf-intro h2{
+	font-family: Open Sans !important;
+}
+#wf-intro .logo img{
+	width:40%;
+	max-width: 207px;
+}
+#wf-intro .tagline {
+	background-color: rgba(125,208,127,0.5);
+	-webkit-border-radius: 6em 0 0 6em;
+	-moz-border-radius: 6em 0 0 6em;
+	border-radius: 6em 0 0 6em;
+	text-align:left;
+	padding-left:4em;
+}
+
+
+/* INTRO LARGE */
+
+@media (min-width:768px){
+	#wf-intro {}
+	#wf-intro .logo { text-align: right;}
+	#wf-intro .logo img{
+		width:90%;
+	}
+	#wf-intro .title {
+		text-align:left;
+	}
+}
+@media (min-width:1203px){
+	#wf-intro .tagline {
+		-webkit-border-radius: 6em;
+		-moz-border-radius: 6em;
+		border-radius: 6em;
+	}
+}
+
+
+/* SERVICES */
+
+#wf-services{
+	
+}
+#wf-services h2{
+	background-color: rgba(125,208,127,0.5);
+	padding:2em;
+}
+#wf-services .services-list h3,
+#wf-services .services-list ul,
+#wf-services .services-list p {
+	text-align:left;
+}
+#wf-services .services-list {
+	background-color: rgba(255,255,255,0.7);
+	padding: 1em;
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+}
+
+
+/* SERVICES LARGE */
+
+
+@media (min-width:768px){
+	#wf-services{}
+	#wf-services .services-list {
+		height:425px;
+	}
+}
+@media (min-width:1024px){
+	#wf-services{}
+	#wf-services .services-list {
+		height:300px;
+	}
+}
+
+
+/* ABOUT */
+
+#wf-about{
+	background-image: url(http://eseller.net/wp-content/uploads/2014/04/iStock_000019262700Small1.jpg)
+}
+#wf-about h2{
+	padding:2em;
+	color:white;
+}
+#wf-about .col:last-child {
+	text-align:left;
+	background-color: rgba(255,255,255,0.7);
+	-webkit-border-radius: 1em 0 0 1em;
+	-moz-border-radius: 1em 0 0 1em;
+	border-radius: 1em 0 0 1em;
+}
+
+
+/* ABOUT LARGE */
+
+
+@media screen and (min-width:768px){
+	#wf-about{
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

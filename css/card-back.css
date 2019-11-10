@@ -1,0 +1,24 @@
+.card__back {
+	background: white;
+  opacity: 0.57;
+	height: 100%;
+	padding: 1em;
+	font-size: 1em;
+}
+
+.card__back a {
+	font-size: 1.1em;
+	color: black;
+}
+
+.card__back a:hover {
+	background-color: var(--wf-green0);
+}
+
+@media screen and ( min-width: 1024px ) {
+
+	.card__back {
+		padding: 4em;
+	}
+
+}

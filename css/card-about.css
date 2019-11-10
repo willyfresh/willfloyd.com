@@ -1,0 +1,16 @@
+.card__about {
+	margin: 2em 0.7em 0 0.7em;
+}
+
+.card__about p {
+	padding: 0 1em;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+	.card__about p {
+		padding-left: 20%;
+	}
+
+}

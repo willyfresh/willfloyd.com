@@ -1,0 +1,25 @@
+/**
+ * willfloyd.com
+ * business card website concept, v2.1.1
+ */
+
+/* variables */
+@import 'css/variables.css';
+
+/* fonts */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Bungee';
+
+/* global*/
+@import 'css/normalize.css';
+@import 'css/responsive.gs.12col.css';
+@import 'css/html.css';
+@import 'css/utility.css';
+
+/* parts */
+@import 'css/logo.css';
+@import 'css/card-front.css';
+@import 'css/card-name.css';
+@import 'css/card-title.css';
+@import 'css/card-back.css';
+@import 'css/card-links.css';
+@import 'css/card-about.css';

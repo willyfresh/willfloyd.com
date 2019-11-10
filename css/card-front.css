@@ -1,0 +1,7 @@
+.card__front {
+  max-width: 1200px;
+  text-align: center;
+	color: white;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
