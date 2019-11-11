@@ -1,1 +1,0 @@
-https://help.dreamhost.com/hc/en-us/articles/215507058-PHP-mail-overview
