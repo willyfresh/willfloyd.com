@@ -1,24 +1,34 @@
 .card__back {
-	background: white;
-  opacity: 0.57;
-	height: 100%;
-	padding: 1em;
-	font-size: 1em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--wf-lightblue1);
+    padding: 1em;
+    font-size: .9em;
+}
+
+.card__back ul {
+    padding: 0;
+    list-style: none;
+}
+
+.card__back li {
+    padding: .25em 0
 }
 
 .card__back a {
-	font-size: 1.1em;
-	color: black;
+    font-size: 1em;
+    padding: .5em;
+    margin-left: -.5em;
+    color: white;
+    transition-duration: 1s;
 }
 
 .card__back a:hover {
-	background-color: var(--wf-green0);
+    background-color: black;
+    color: var(--wf-orange0);
 }
 
-@media screen and ( min-width: 1024px ) {
-
-	.card__back {
-		padding: 4em;
-	}
-
+@media screen and ( min-width: 1024px) {
+    .card__back {
+        padding: 4em;
+    }
 }

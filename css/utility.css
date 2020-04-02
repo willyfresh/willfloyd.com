@@ -1,8 +1,19 @@
 span.lg-only {
-	display:none;
+    display: none;
 }
+
 @media screen and (min-width: 1290px) {
-	span.lg-only {
-		display:inline;
-	}	
+    span.lg-only {
+        display: inline;
+    }
+}
+
+span.sm-only {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    span.sm-only {
+        display: inline;
+    }
 }
