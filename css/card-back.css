@@ -1,8 +1,8 @@
 .card__back {
     background-color: rgba(0, 0, 0, 0.5);
     color: var(--wf-lightblue1);
-    padding: 1em;
-    font-size: .9em;
+    padding: 1.5em;
+    font-size: 1em;
 }
 
 .card__back ul {
@@ -11,13 +11,14 @@
 }
 
 .card__back li {
-    padding: .25em 0
+    padding: .25em 0;
+    margin: .25em 0;
 }
 
 .card__back a {
-    font-size: 1em;
+    font-size: 1.2em;
     padding: .5em;
-    margin-left: -.5em;
+    margin: .25em -.5em;
     color: white;
     transition-duration: 1s;
 }
@@ -27,8 +28,16 @@
     color: var(--wf-orange0);
 }
 
+.card__back a i {
+    font-size: 1.4em;
+    vertical-align: middle;
+}
+
 @media screen and ( min-width: 1024px) {
     .card__back {
         padding: 4em;
+    }
+    .card__back a i {
+        font-size: 1.2em;
     }
 }

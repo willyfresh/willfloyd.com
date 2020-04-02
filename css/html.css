@@ -26,11 +26,11 @@
     }
     
     h3 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     
     @media screen and ( max-width: 1024px) {
         h3 {
-            font-size: 1.3em;
+            font-size: 1.2em;
         }
     }
