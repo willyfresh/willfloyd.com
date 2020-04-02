@@ -1,36 +1,19 @@
-    html,
-    body,
-    main,
-    section {
-        min-height: 100vh;
-    }
-    
-    body {
-        margin: 0;
-        /* fancy linear gradient bg */
-        background: linear-gradient( 20deg, var(--wf-blue1), var(--wf-blue0) 30%, var(--wf-green4) 50%, var(--wf-blue1));
-    }
-    
-    main {
-        background: url(../img/polyester_lite.png);
-        background-attachment: fixed;
-        font-family: 'Open Sans', sans-serif;
-    }
-    
-    section>div {
-        border-bottom: thin solid var(--wf-blue3);
-    }
-    
-    section>div:last-child {
-        border: none;
-    }
-    
-    h3 {
-        font-size: 1.5em;
-    }
-    
-    @media screen and ( max-width: 1024px) {
-        h3 {
-            font-size: 1.2em;
-        }
-    }
+html,
+body,
+main,
+section {
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    /* fancy linear gradient bg */
+    background: linear-gradient( 20deg, var(--wf-blue1), var(--wf-blue0) 30%, var(--wf-green4) 50%, var(--wf-blue1));
+}
+
+main {
+    background: url(../img/polyester_lite.png);
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    align-items: flex-start;
+}
