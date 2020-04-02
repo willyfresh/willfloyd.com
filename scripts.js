@@ -1,29 +1,19 @@
-(function( $ ) {
-	
-	// set the height
-	
-	let cardFaces = $('.card > *');
-	
-	cardFaces.each( function() {
-		$(this).css('min-height', self.innerHeight)
-	});
-	
-	// title slides
-	
-	const delay = 4000;
-	let int = 0;
-	let cardTitles = $('.card__title li');
-	
-	cardTitles.hide();
-	cardTitles.first().show();
-	
-	var intervalId = setInterval( function() {
-		cardTitles.eq(int).slideToggle();
-		int++
-		if ( int === cardTitles.length ) {
-			int = 0;
-		}
-		cardTitles.eq(int).slideToggle();
-	}, delay);	
-	
-})( jQuery );
+/**
+ * willfloyd.com javascript loader
+ * 
+ * dynamic script loading
+ * because I can and
+ * you can't stop me
+ * 
+ * @todo: I should add some js to this project...
+ */
+
+// load your scripts here
+// dynamicallyLoadScript('js/card-height.js');
+
+// script loading function
+function dynamicallyLoadScript(url) {
+    var script = document.createElement("script"); // create a script DOM node
+    script.src = url; // set its src to the provided URL
+    document.body.appendChild(script); // add to end of body
+}
