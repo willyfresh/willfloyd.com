@@ -10,6 +10,7 @@
 
 // load your scripts here
 // dynamicallyLoadScript('js/card-height.js');
+dynamicallyLoadScript('js/title-slides.js');
 
 // script loading function
 function dynamicallyLoadScript(url) {
